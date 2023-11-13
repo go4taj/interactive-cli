@@ -1,0 +1,31 @@
+{
+  "name": "interactive-cli",
+  "version": "1.0.0",
+  "description": "bootscript to create interactive cli using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go4taj/interactive-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "interactive cli"
+  ],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "translate": "./bin/translate.js"
+  },
+  "bugs": {
+    "url": "https://github.com/go4taj/interactive-cli/issues"
+  },
+  "homepage": "https://github.com/go4taj/interactive-cli#readme",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "inquirer": "^9.2.12"
+  }
+}
